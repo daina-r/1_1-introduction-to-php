@@ -40,7 +40,7 @@
         </dl>
         <dl>
             <dt>Адрес электронной почты</dt>
-            <dd><?= $userMail ?></dd>
+            <dd><a href="mailto:<?= $userMail ?>"><?= $userMail ?></a></dd>
         </dl>
         <dl>
             <dt>Город</dt>
